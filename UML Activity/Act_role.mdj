@@ -4,25 +4,6 @@
 	"name": "Untitled",
 	"ownedElements": [
 		{
-			"_type": "UMLModel",
-			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
-			"_parent": {
-				"$ref": "AAAAAAFF+h6SjaM2Hec="
-			},
-			"name": "Model",
-			"ownedElements": [
-				{
-					"_type": "UMLClassDiagram",
-					"_id": "AAAAAAFF+qBtyKM79qY=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Main",
-					"defaultDiagram": true
-				}
-			]
-		},
-		{
 			"_type": "UMLActivity",
 			"_id": "AAAAAAF+UvfzulGYTAM=",
 			"_parent": {
@@ -36,7 +17,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF+UvfzulGYTAM="
 					},
-					"name": "ActivityDiagram1",
+					"name": "Act_create_role",
 					"ownedViews": [
 						{
 							"_type": "UMLSwimlaneView",
@@ -213,7 +194,7 @@
 											"top": 95,
 											"width": 265.8271484375,
 											"height": 13,
-											"text": "Selection creation de X"
+											"text": "Selection creation de role"
 										},
 										{
 											"_type": "LabelView",
@@ -318,7 +299,7 @@
 											"top": 135,
 											"width": 236.2216796875,
 											"height": 13,
-											"text": "Formulaire de creation chaine de X"
+											"text": "Formulaire de creation de role"
 										},
 										{
 											"_type": "LabelView",
@@ -514,7 +495,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -264,
-											"top": -24,
+											"top": -40,
 											"height": 13
 										},
 										{
@@ -525,7 +506,7 @@
 											},
 											"font": "Arial;13;1",
 											"left": 541,
-											"top": 239,
+											"top": 231,
 											"width": 200.1416015625,
 											"height": 13,
 											"text": "Verification des données saisies"
@@ -539,7 +520,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -264,
-											"top": -24,
+											"top": -40,
 											"width": 88.841796875,
 											"height": 13,
 											"text": "(from Systeme)"
@@ -553,14 +534,14 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -264,
-											"top": -24,
+											"top": -40,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 536,
-									"top": 232,
+									"top": 224,
 									"width": 210.1416015625,
 									"height": 25,
 									"stereotypeLabel": {
@@ -583,7 +564,7 @@
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 536,
-							"top": 232,
+							"top": 224,
 							"width": 210.1416015625,
 							"height": 41,
 							"nameCompartment": {
@@ -970,7 +951,7 @@
 											"top": 703,
 											"width": 296.1943359375,
 											"height": 13,
-											"text": "Affichage de la creation reussite chaine de X"
+											"text": "Affichage de la creation reussie du role"
 										},
 										{
 											"_type": "LabelView",
@@ -1465,8 +1446,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 418,
-									"top": 213,
+									"left": 417,
+									"top": 210,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1486,8 +1467,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 419,
-									"top": 198,
+									"left": 418,
+									"top": 195,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1507,8 +1488,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 415,
-									"top": 242,
+									"left": 416,
+									"top": 239,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1526,7 +1507,7 @@
 								"$ref": "AAAAAAF+UvfzulGtLko="
 							},
 							"lineStyle": 1,
-							"points": "299:225;535:244",
+							"points": "299:224;535:238",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF+Uvfzu1H5wbA="
@@ -1559,7 +1540,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 646,
-									"top": 282,
+									"top": 277,
 									"width": 94.64990234375,
 									"height": 13,
 									"alpha": 1.6373638268538768,
@@ -1582,7 +1563,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 666,
-									"top": 283,
+									"top": 279,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1603,7 +1584,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 622,
-									"top": 281,
+									"top": 277,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1621,7 +1602,7 @@
 								"$ref": "AAAAAAF+UvfzulGz7xU="
 							},
 							"lineStyle": 1,
-							"points": "638:273;636:303",
+							"points": "638:265;636:303",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF+Uvfzu1H9fOQ="
@@ -3205,7 +3186,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF+Uvfzu1JFcTk="
 							},
-							"name": "Selection creation de X",
+							"name": "Selection creation de role",
 							"kind": "acceptSignal"
 						},
 						{
@@ -3232,7 +3213,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF+UvfzvFJIvhA="
 							},
-							"name": "Formulaire de creation chaine de X"
+							"name": "Formulaire de creation de role"
 						},
 						{
 							"_type": "UMLAction",
@@ -3273,7 +3254,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF+UvfzvFJIvhA="
 							},
-							"name": "Affichage de la creation reussite chaine de X",
+							"name": "Affichage de la creation reussie du role",
 							"kind": "sendSignal"
 						},
 						{
@@ -3369,7 +3350,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF+Uvl1wVkVSXE="
 					},
-					"name": "ActivityDiagram1",
+					"name": "Act_delete_role",
 					"ownedViews": [
 						{
 							"_type": "UMLSwimlaneView",
@@ -3555,7 +3536,7 @@
 											"top": 135,
 											"width": 221.9052734375,
 											"height": 13,
-											"text": "Cliquer sur supprimer X"
+											"text": "Cliquer sur supprimer role"
 										},
 										{
 											"_type": "LabelView",
@@ -3657,7 +3638,7 @@
 											"top": 199,
 											"width": 184.2724609375,
 											"height": 13,
-											"text": "Demander la liste X"
+											"text": "Demander la liste des roles"
 										},
 										{
 											"_type": "LabelView",
@@ -3759,7 +3740,7 @@
 											"top": 255,
 											"width": 182.8125,
 											"height": 13,
-											"text": "Retourner la liste X"
+											"text": "Retourner la liste des roles"
 										},
 										{
 											"_type": "LabelView",
@@ -3860,7 +3841,7 @@
 											"top": 335,
 											"width": 169.8125,
 											"height": 13,
-											"text": "Afficher la liste X"
+											"text": "Afficher la liste des roles"
 										},
 										{
 											"_type": "LabelView",
@@ -3963,7 +3944,7 @@
 											"top": 399,
 											"width": 226.14794921875,
 											"height": 13,
-											"text": "Sélectionner X à supprimer"
+											"text": "Sélectionner le role à supprimer"
 										},
 										{
 											"_type": "LabelView",
@@ -4269,7 +4250,7 @@
 											"top": 751,
 											"width": 122.83984375,
 											"height": 13,
-											"text": "Supprimer X"
+											"text": "Supprimer le role"
 										},
 										{
 											"_type": "LabelView",
@@ -4912,12 +4893,12 @@
 										"$ref": "AAAAAAF+Uvl1wlm31rw="
 									},
 									"font": "Arial;13;0",
-									"left": 410,
-									"top": 575,
+									"left": 423,
+									"top": 600,
 									"width": 70.80810546875,
 									"height": 13,
-									"alpha": 1.5305356771569252,
-									"distance": 43.04648650006177,
+									"alpha": 0.8309881098145144,
+									"distance": 28.600699292150182,
 									"hostEdge": {
 										"$ref": "AAAAAAF+Uvl1wll+HA4="
 									},
@@ -6677,7 +6658,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF+Uvl1wVkVSXE="
 					},
-					"name": "Cliquer sur supprimer X",
+					"name": "Cliquer sur supprimer role",
 					"kind": "acceptSignal"
 				},
 				{
@@ -6686,7 +6667,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF+Uvl1wVkVSXE="
 					},
-					"name": "Demander la liste X"
+					"name": "Demander la liste des roles"
 				},
 				{
 					"_type": "UMLAction",
@@ -6694,7 +6675,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF+Uvl1wVkVSXE="
 					},
-					"name": "Retourner la liste X"
+					"name": "Retourner la liste des roles"
 				},
 				{
 					"_type": "UMLAction",
@@ -6702,7 +6683,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF+Uvl1wVkVSXE="
 					},
-					"name": "Sélectionner X à supprimer"
+					"name": "Sélectionner le role à supprimer"
 				},
 				{
 					"_type": "UMLAction",
@@ -6718,7 +6699,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF+Uvl1wVkVSXE="
 					},
-					"name": "Supprimer X"
+					"name": "Supprimer le role"
 				},
 				{
 					"_type": "UMLForkNode",
@@ -7025,7 +7006,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF+Uvl1wlnBFAI="
 							},
-							"name": "Afficher la liste X"
+							"name": "Afficher la liste des roles"
 						},
 						{
 							"_type": "UMLAction",
@@ -7120,7 +7101,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF+UwBUaV5qx80="
 					},
-					"name": "ActivityDiagram1",
+					"name": "Act_update_role",
 					"ownedViews": [
 						{
 							"_type": "UMLSwimlaneView",
@@ -7291,7 +7272,7 @@
 											"top": 111,
 											"width": 177.0234375,
 											"height": 13,
-											"text": "demander la liste X"
+											"text": "demander la liste de role"
 										},
 										{
 											"_type": "LabelView",
@@ -7393,7 +7374,7 @@
 											"top": 103,
 											"width": 229.88671875,
 											"height": 13,
-											"text": "choisir l'option modification X"
+											"text": "choisir l'option modification de role"
 										},
 										{
 											"_type": "LabelView",
@@ -7498,7 +7479,7 @@
 											"top": 175,
 											"width": 164.0107421875,
 											"height": 13,
-											"text": "Afficher la liste X"
+											"text": "Afficher la liste de role"
 										},
 										{
 											"_type": "LabelView",
@@ -7603,7 +7584,7 @@
 											"top": 127,
 											"width": 151.74072265625,
 											"height": 13,
-											"text": "Envoyer liste X"
+											"text": "Envoyer liste de role"
 										},
 										{
 											"_type": "LabelView",
@@ -7708,7 +7689,7 @@
 											"top": 199,
 											"width": 195.787109375,
 											"height": 13,
-											"text": "Selectionner la tache a modifier"
+											"text": "Selectionner le role a modifier"
 										},
 										{
 											"_type": "LabelView",
@@ -9832,7 +9813,7 @@
 											"top": 799,
 											"width": 242.74072265625,
 											"height": 13,
-											"text": "Afficher message modification reussite"
+											"text": "Afficher message modification reussie"
 										},
 										{
 											"_type": "LabelView",
@@ -10754,12 +10735,12 @@
 										"$ref": "AAAAAAF+U98l0tV9tf4="
 									},
 									"font": "Arial;13;0",
-									"left": 920,
-									"top": 175,
+									"left": 872,
+									"top": 151,
 									"width": 61.419921875,
 									"height": 13,
-									"alpha": 2.511052345237842,
-									"distance": 38.48376280978771,
+									"alpha": -0.7534177148173984,
+									"distance": 15.264337522473747,
 									"hostEdge": {
 										"$ref": "AAAAAAF+U98l0tV+tIg="
 									},
@@ -11258,7 +11239,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF+UwBUaV5qx80="
 					},
-					"name": "demander la liste X"
+					"name": "demander la liste de role"
 				},
 				{
 					"_type": "UMLForkNode",
@@ -11631,7 +11612,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF+UwBUa19E0yk="
 							},
-							"name": "choisir l'option modification X",
+							"name": "choisir l'option modification de role",
 							"kind": "acceptSignal"
 						},
 						{
@@ -11640,7 +11621,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF+UwBUa19E0yk="
 							},
-							"name": "Selectionner la tache a modifier"
+							"name": "Selectionner le role a modifier"
 						},
 						{
 							"_type": "UMLAction",
@@ -11666,7 +11647,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF+UwBUa19I6Hw="
 							},
-							"name": "Afficher la liste X"
+							"name": "Afficher la liste de role"
 						},
 						{
 							"_type": "UMLAction",
@@ -11732,7 +11713,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF+UwBUa19I6Hw="
 							},
-							"name": "Afficher message modification reussite",
+							"name": "Afficher message modification reussie",
 							"kind": "sendSignal"
 						},
 						{
@@ -11776,7 +11757,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF+UwBUa19TiqQ="
 							},
-							"name": "Envoyer liste X"
+							"name": "Envoyer liste de role"
 						},
 						{
 							"_type": "UMLAction",
